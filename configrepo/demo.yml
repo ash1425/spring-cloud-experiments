@@ -1,0 +1,16 @@
+my:
+  app:
+    name: new name
+    data: DATA-new
+endpoints:
+  restart:
+    enabled: true
+---
+spring:
+  profiles: dev
+my:
+  app:
+    name: REPO-DEV
+    data: DATA-DEV
+server:
+  port: 8889
